@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#nav-area{
+    background-color:  #007bff;;
+    
+}
+
+#nav-area .logo{
+    width: 20%;
+}
+
+#nav-area .logo img{
+    width: 100px;
+    margin-left: 100px;
+  
+    border-radius: 90px 98px 92px 87px;
+    
+}
+
+
+
+span{
+    margin-top: -20px;
+}
+
+.row{
+    align-items: center;
+    display: flex;
+}
+
+.center{
+    width: 40%;
+    
+}
+.ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.board{
+    color:whitesmoke;
+}
+
+.live{
+    color:red
+}
+
+.news{
+    color:yellowgreen
+}
+
+.search input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px 1px 1px 1px;
+}
+
+.search a{
+    margin-left: 25px;
+    text-decoration: none;
+    color:whitesmoke
+}
+
+.main{
+    text-align: center;
+    background-color: #007bff;;
+   
+}
+
+.main-form{
+
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+  color: whitesmoke;
+    padding: 20px;
+    width: 1000px;
+    margin-left: 240px;
+}
+
+.size{
+ 
+    border-bottom: 1px solid hsla(0,0%,100%,.24);
+    overflow: hidden;
+
+}
+
+.fast{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 80px;
+    width: 1000px;
+    margin-left: 240px;
+}
+
+.border1{
+    text-decoration: none;
+    border: 1px solid  #047eb3;;
+    padding-top: 10px;
+    border-radius: 25px 27px 23px 30px;
+
+    margin-top: -20px;
+    height: 60px;
+    background-color:rgba(4,126,179,.16)
+    ;
+
+}
+
+.switch{
+    
+}
+
+
+.border2{
+    text-decoration: none;
+    border: 1px solid  #047eb3;;
+    padding-top: 10px;
+    border-radius: 25px 27px 23px 30px;
+    margin-left: 30px;
+    margin-top: -20px;
+    height: 60px;
+    background-color:rgba(4,126,179,.16)
+    ;
+
+}
+
+
+.border3{
+    text-decoration: none;
+    border: 1px solid  #047eb3;;
+    padding-top: 10px;
+    border-radius: 25px 27px 23px 30px;
+        margin-left: 50px;
+    margin-top: -20px;
+    height: 60px;
+    background-color:rgba(4,126,179,.16)
+    ;
+}
